@@ -61,14 +61,14 @@
                                     <element>BUNDLE</element>
                                     <limits>
                                         <limit>
-                                            <counter>LINE</counter>
+                                            <counter>INSTRUCTION</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>100%</minimum>
+                                            <minimum>1.0</minimum>
                                         </limit>
                                         <limit>
                                             <counter>CLASS</counter>
                                             <value>MISSEDCOUNT</value>
-                                            <maximum>100%</maximum>
+                                            <maximum>1.0</maximum>
                                         </limit>
                                     </limits>
                                 </rule>
@@ -92,4 +92,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
